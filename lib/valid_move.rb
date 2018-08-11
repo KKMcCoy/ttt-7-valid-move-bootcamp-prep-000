@@ -1,4 +1,4 @@
-def position_taken(board, index)
+def position_taken?(board, index)
 taken = nil;
   
   if board[index] ==  " " || board[index] == "" || board[index] == nil  
@@ -11,7 +11,7 @@ taken
 end
 
 
-def valid_move(board,index)
+def valid_move?(board,index)
   
   if index.between?(0,8) = true && taken = false
   valid = true;
